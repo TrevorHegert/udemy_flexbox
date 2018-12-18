@@ -195,3 +195,60 @@
     
 }
 
+///////////////////////////////////////////
+// GALLERY
+
+.gallery {
+    display: flex;
+    
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+/////////////////////////////////////////// 
+//OVERVIEW
+
+.overview {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+
+    &__heading {
+        text-transform: uppercase;
+        margin-right: 1.25rem;
+        margin-left: 2rem;
+        
+    }
+
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__icon-star,
+    &__icon-location {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+
+    &__location {
+        
+    }
+
+    &__rating {
+
+    }
+
+    &__rating-average {
+
+    }
+
+    &__rating-count {
+
+    }
+
+
+}
